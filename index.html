@@ -124,6 +124,24 @@
           width: 100%;
         }
       }
+      .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
       </style>
   </head>
   <body>
@@ -139,16 +157,19 @@
     </div>
     <div class="row">
       <div class="side">
-        <h2>About Me</h2>
+        <!-- <h2>About Me</h2> -->
         <!-- <h5>Photo of me:</h5> -->
-        <img src="LukeThoennesAvatar.jpg" alt="Lucas Thoennes" style="height:200px;">
+        <div class="card">
+          <img src="LukeThoennesAvatar.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <h4><b>Lucas Thoennes</b></h4> 
+            <p>Systems Engineer</p> 
+          </div>
+        </div>
+        <!-- <img src="LukeThoennesAvatar.jpg" alt="Lucas Thoennes" style="height:200px;"> -->
         <p>I am originally from Minnesota but currently reside in Nevada. I am a systems engineer for a company that specializes in machine condition monitoring. I enjoy hiking, disc golf, fantasy football, and billiards.</p>
         
         <p>I spend most of my time with my wife Kelly and our cats Pinot and Ethel. We enjoy exploring the beautiful outdoor spaces of the Sierra Nevada.</p>
-        <h3>Contact:</h3>
-        <i class="material-icons" style="font-size:24px;">mail</i><a href="mailto:thoennes@outlook.com">thoennes@outlook.com</a><br>
-        <i class="material-icons" style="font-size:24px;">linkedin</i><a href="https://www.linkedin.com/in/lucasthoennes"></a><br>        
-        <i class="material-icons" style="font-size:24px;">mail</i><a href="mailto:thoennes@outlook.com">thoennes@outlook.com</a><br>        
 
       </div>
       <div class="main">
