@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /img/
+
+User-agent: *
+Disallow: /mySpaceClone.html
+
+User-agent: *
+Sitemap: https://lthoennes.com/sitemap.xml
+
